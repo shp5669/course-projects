@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(254, 188, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.container {
+  width: 400px;
+}
+
+#beer-image {
+  max-height: 200px;
+}
+
+#beer-button {
+  background-color: rgb(253, 122, 122);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#beer-button:active {
+  background-color: rgb(199, 113, 133);
+  color: rgb(224, 223, 233);
+}

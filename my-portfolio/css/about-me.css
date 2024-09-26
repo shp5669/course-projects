@@ -1,0 +1,58 @@
+.about-me {
+  background-color: rgb(59, 62, 77);
+  text-align: center;
+  padding: 80px;
+}
+
+.projects {
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  max-width: 800px;
+  margin-top: 50px;
+}
+
+table td {
+  padding: 15px;
+}
+
+table #project {
+  min-width: 110px;
+}
+
+table #title {
+  min-width: 200px;
+}
+
+@media (max-width: 600px) {
+  table #project {
+    min-width: 0;
+  }
+
+  table #title {
+    min-width: 0;
+  }
+}
+
+section a {
+  color: rgb(233, 227, 110);
+}
+
+.headshot-about {
+  width: 335px;
+  border-radius: 50%;
+  padding: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-me {
+    padding: 10px;
+  }
+  .headshot-about {
+    padding: 40px 0;
+  }
+}

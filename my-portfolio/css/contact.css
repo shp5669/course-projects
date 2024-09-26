@@ -1,0 +1,26 @@
+.contact-section {
+  text-align: center;
+  padding: 250px;
+}
+
+.contact-section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section a {
+  color: rgb(233, 227, 110);
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-section {
+    padding: 250px 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-section {
+    padding: 250px 50px;
+  }
+}

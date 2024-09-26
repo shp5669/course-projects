@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Signup Modal</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="auth-modal">
+      <div class="close-icon">ⓧ</div>
+      <h2>Sign Up</h2>
+      <p>
+        By signing up you agree to our terms and conditions. Learn about our
+        Privacy Policy before clicking submit.
+      </p>
+      <form>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="username"
+        />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="password"
+        />
+        <input
+          type="password"
+          id="password-check"
+          name="password-check"
+          placeholder="confirm password"
+        />
+        <label for="tandc">
+          <input type="checkbox" name="tandc" id="tandc" />
+          I agree to the terms and conditions.
+        </label>
+
+        <input type="submit" class="form-button" />
+      </form>
+
+      <hr />
+
+      <h2>download the app</h2>
+
+      <div class="link-container">
+        <a href="http://play.google.com/store">
+          <img src="images/google-play-download.png" alt="google play icon" />
+        </a>
+        <a href="https://www.apple.com/store">
+          <img src="images/app-store-download.png" alt="apple store icon" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
