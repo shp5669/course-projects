@@ -1,2 +1,2 @@
-# course-projects
-Projects from Code With Ania
+# front-end-projects
+Projects from Scratch
